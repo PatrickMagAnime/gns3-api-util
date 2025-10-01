@@ -7,7 +7,7 @@
     "allPublicMethods" : true
   },
   {
-    "name" : "com.gns3util.cli.commands.DrawingCommand",
+    "name" : "com.gns3util.cli.commands.ApplianceCommand",
     "allDeclaredConstructors" : true,
     "allPublicConstructors" : true,
     "allDeclaredMethods" : true,
@@ -17,78 +17,24 @@
     ]
   },
   {
-    "name" : "com.gns3util.cli.commands.DrawingCommand$Create",
+    "name" : "com.gns3util.cli.commands.ApplianceCommand$Get",
     "allDeclaredConstructors" : true,
     "allPublicConstructors" : true,
     "allDeclaredMethods" : true,
     "allPublicMethods" : true,
     "fields" : [
-      { "name" : "drawingName" },
-      { "name" : "height" },
-      { "name" : "main" },
-      { "name" : "projectName" },
-      { "name" : "width" },
-      { "name" : "x" },
-      { "name" : "y" }
+      { "name" : "applianceId" },
+      { "name" : "main" }
     ]
   },
   {
-    "name" : "com.gns3util.cli.commands.DrawingCommand$Delete",
+    "name" : "com.gns3util.cli.commands.ApplianceCommand$List",
     "allDeclaredConstructors" : true,
     "allPublicConstructors" : true,
     "allDeclaredMethods" : true,
     "allPublicMethods" : true,
     "fields" : [
-      { "name" : "confirm" },
-      { "name" : "drawingId" },
-      { "name" : "main" },
-      { "name" : "projectName" }
+      { "name" : "main" }
     ]
-  },
-  {
-    "name" : "com.gns3util.cli.commands.DrawingCommand$Get",
-    "allDeclaredConstructors" : true,
-    "allPublicConstructors" : true,
-    "allDeclaredMethods" : true,
-    "allPublicMethods" : true,
-    "fields" : [
-      { "name" : "drawingId" },
-      { "name" : "main" },
-      { "name" : "projectName" }
-    ]
-  },
-  {
-    "name" : "com.gns3util.cli.commands.DrawingCommand$List",
-    "allDeclaredConstructors" : true,
-    "allPublicConstructors" : true,
-    "allDeclaredMethods" : true,
-    "allPublicMethods" : true,
-    "fields" : [
-      { "name" : "main" },
-      { "name" : "projectName" }
-    ]
-  },
-  {
-    "name" : "com.gns3util.cli.commands.DrawingCommand$Update",
-    "allDeclaredConstructors" : true,
-    "allPublicConstructors" : true,
-    "allDeclaredMethods" : true,
-    "allPublicMethods" : true,
-    "fields" : [
-      { "name" : "drawingId" },
-      { "name" : "height" },
-      { "name" : "main" },
-      { "name" : "projectName" },
-      { "name" : "width" },
-      { "name" : "x" },
-      { "name" : "y" }
-    ]
-  },
-  {
-    "name" : "java.lang.Integer",
-    "allDeclaredConstructors" : true,
-    "allPublicConstructors" : true,
-    "allDeclaredMethods" : true,
-    "allPublicMethods" : true
   }
 ]
