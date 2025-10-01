@@ -1,12 +1,13 @@
 package com.gns3util.cli;
 
-import com.gns3util.cli.commands.ApplianceCommand;
 import com.gns3util.auth.AuthenticationManager;
 import com.gns3util.api.GNS3Client;
 import com.gns3util.util.InteractiveUtils;
 import com.gns3util.model.Credentials;
 import com.gns3util.model.Token;
 import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;
@@ -18,11 +19,10 @@ import java.io.IOException;
  */
 @Command(name = "gns3util-java", mixinStandardHelpOptions = true, version = "1.0.0",
          description = "A Java utility for managing GNS3v3 servers",
-         subcommands = {ApplianceCommand.class, AuthCommand.class, ClassCommand.class, ComputeCommand.class, DrawingCommand.class, ExerciseCommand.class, LinkCommand.class, ProjectCommand.class, TemplateCommand.class})
+         subcommands = {AclCommand.class, ApplianceCommand.class, AuthCommand.class, ClassCommand.class, ClusterCommand.class, ComputeCommand.class, DrawingCommand.class, ExerciseCommand.class, GroupCommand.class, ImageCommand.class, LinkCommand.class, NodeCommand.class, PoolCommand.class, ProjectCommand.class, RemoteCommand.class, RoleCommand.class, ShareCommand.class, SnapshotCommand.class, SymbolCommand.class, SystemCommand.class, TemplateCommand.class, UserCommand.class})
 public class Main implements Callable<Integer> {
     @Option(names = {"-s", "--server"}, description = "GNS3v3 Server URL", required = true)
     private String server;
-
     @Option(names = {"-k", "--key-file"}, description = "Path to authentication keyfile")
     private String keyFile;
 
