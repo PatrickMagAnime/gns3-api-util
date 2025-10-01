@@ -7,7 +7,7 @@
     "allPublicMethods" : true
   },
   {
-    "name" : "com.gns3util.cli.commands.ApplianceCommand",
+    "name" : "com.gns3util.cli.commands.PoolCommand",
     "allDeclaredConstructors" : true,
     "allPublicConstructors" : true,
     "allDeclaredMethods" : true,
@@ -17,24 +17,85 @@
     ]
   },
   {
-    "name" : "com.gns3util.cli.commands.ApplianceCommand$Get",
+    "name" : "com.gns3util.cli.commands.PoolCommand$AddResource",
     "allDeclaredConstructors" : true,
     "allPublicConstructors" : true,
     "allDeclaredMethods" : true,
     "allPublicMethods" : true,
     "fields" : [
-      { "name" : "applianceId" },
+      { "name" : "main" },
+      { "name" : "poolName" },
+      { "name" : "resourceId" },
+      { "name" : "resourceType" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.PoolCommand$Create",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "description" },
+      { "name" : "main" },
+      { "name" : "poolName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.PoolCommand$Delete",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "confirm" },
+      { "name" : "main" },
+      { "name" : "poolName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.PoolCommand$DeleteResource",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" },
+      { "name" : "poolName" },
+      { "name" : "resourceId" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.PoolCommand$Get",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" },
+      { "name" : "poolName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.PoolCommand$List",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
       { "name" : "main" }
     ]
   },
   {
-    "name" : "com.gns3util.cli.commands.ApplianceCommand$List",
+    "name" : "com.gns3util.cli.commands.PoolCommand$Update",
     "allDeclaredConstructors" : true,
     "allPublicConstructors" : true,
     "allDeclaredMethods" : true,
     "allPublicMethods" : true,
     "fields" : [
-      { "name" : "main" }
+      { "name" : "description" },
+      { "name" : "main" },
+      { "name" : "poolName" }
     ]
   }
 ]
