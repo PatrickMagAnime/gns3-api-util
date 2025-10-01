@@ -31,17 +31,8 @@ go.work
 old_code/
 gns3util
 
-api.json
-test_class.json
-scripts/test.yml
-*.yaml
-*.yml
-docs/
-docs/
-
-# GitHub Actions workflow test files
-.github/event.json
-.actrc
-
 # Build artifacts
 dist/
+
+# Allow Java files for the Java rewrite
+!gns3util-java/
