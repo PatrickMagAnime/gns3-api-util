@@ -7,7 +7,7 @@
     "allPublicMethods" : true
   },
   {
-    "name" : "com.gns3util.cli.commands.SnapshotCommand",
+    "name" : "com.gns3util.cli.commands.ClusterCommand",
     "allDeclaredConstructors" : true,
     "allPublicConstructors" : true,
     "allDeclaredMethods" : true,
@@ -17,39 +17,47 @@
     ]
   },
   {
-    "name" : "com.gns3util.cli.commands.SnapshotCommand$Create",
+    "name" : "com.gns3util.cli.commands.ClusterCommand$AddNode",
     "allDeclaredConstructors" : true,
     "allPublicConstructors" : true,
     "allDeclaredMethods" : true,
     "allPublicMethods" : true,
     "fields" : [
+      { "name" : "clusterName" },
       { "name" : "main" },
-      { "name" : "projectName" },
-      { "name" : "snapshotName" }
+      { "name" : "nodeName" }
     ]
   },
   {
-    "name" : "com.gns3util.cli.commands.SnapshotCommand$Delete",
+    "name" : "com.gns3util.cli.commands.ClusterCommand$Config",
     "allDeclaredConstructors" : true,
     "allPublicConstructors" : true,
     "allDeclaredMethods" : true,
     "allPublicMethods" : true,
     "fields" : [
-      { "name" : "confirm" },
-      { "name" : "main" },
-      { "name" : "projectName" },
-      { "name" : "snapshotName" }
+      { "name" : "clusterName" },
+      { "name" : "main" }
     ]
   },
   {
-    "name" : "com.gns3util.cli.commands.SnapshotCommand$List",
+    "name" : "com.gns3util.cli.commands.ClusterCommand$Create",
     "allDeclaredConstructors" : true,
     "allPublicConstructors" : true,
     "allDeclaredMethods" : true,
     "allPublicMethods" : true,
     "fields" : [
-      { "name" : "main" },
-      { "name" : "projectName" }
+      { "name" : "clusterName" },
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ClusterCommand$List",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
     ]
   }
 ]
