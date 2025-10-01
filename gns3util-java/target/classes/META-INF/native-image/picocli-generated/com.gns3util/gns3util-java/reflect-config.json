@@ -1,2 +1,1136 @@
-
+[
+  {
+    "name" : "com.gns3util.cli.Main",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true
+  },
+  {
+    "name" : "com.gns3util.cli.commands.AclCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.AclCommand$Create",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "aclName" },
+      { "name" : "description" },
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.AclCommand$Delete",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "aclName" },
+      { "name" : "confirm" },
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.AclCommand$Get",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "aclName" },
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.AclCommand$List",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.AclCommand$Update",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "aclName" },
+      { "name" : "action" },
+      { "name" : "destination" },
+      { "name" : "main" },
+      { "name" : "ruleId" },
+      { "name" : "source" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ApplianceCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ApplianceCommand$Get",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "applianceId" },
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ApplianceCommand$List",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.AuthCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.AuthCommand$Login",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" },
+      { "name" : "password" },
+      { "name" : "username" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.AuthCommand$Status",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ClassCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ClassCommand$Create",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "className" },
+      { "name" : "file" },
+      { "name" : "interactive" },
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ClassCommand$Delete",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "className" },
+      { "name" : "confirm" },
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ClassCommand$List",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ComputeCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ComputeCommand$Create",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "computeName" },
+      { "name" : "host" },
+      { "name" : "main" },
+      { "name" : "port" },
+      { "name" : "protocol" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ComputeCommand$Delete",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "computeId" },
+      { "name" : "confirm" },
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ComputeCommand$Get",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "computeId" },
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ComputeCommand$List",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ComputeCommand$Update",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "computeId" },
+      { "name" : "host" },
+      { "name" : "main" },
+      { "name" : "name" },
+      { "name" : "port" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.DrawingCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.DrawingCommand$Create",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "drawingName" },
+      { "name" : "height" },
+      { "name" : "main" },
+      { "name" : "projectName" },
+      { "name" : "width" },
+      { "name" : "x" },
+      { "name" : "y" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.DrawingCommand$Delete",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "confirm" },
+      { "name" : "drawingId" },
+      { "name" : "main" },
+      { "name" : "projectName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.DrawingCommand$Get",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "drawingId" },
+      { "name" : "main" },
+      { "name" : "projectName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.DrawingCommand$List",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" },
+      { "name" : "projectName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.DrawingCommand$Update",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "drawingId" },
+      { "name" : "height" },
+      { "name" : "main" },
+      { "name" : "projectName" },
+      { "name" : "width" },
+      { "name" : "x" },
+      { "name" : "y" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ExerciseCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ExerciseCommand$Create",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "className" },
+      { "name" : "exerciseName" },
+      { "name" : "format" },
+      { "name" : "main" },
+      { "name" : "selectTemplate" },
+      { "name" : "template" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ExerciseCommand$Delete",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "confirm" },
+      { "name" : "exerciseName" },
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ExerciseCommand$Info",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "exerciseName" },
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ExerciseCommand$List",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.GroupCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.GroupCommand$AddMember",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "groupName" },
+      { "name" : "main" },
+      { "name" : "username" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.GroupCommand$Create",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "groupName" },
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.GroupCommand$Delete",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "confirm" },
+      { "name" : "groupName" },
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.GroupCommand$Get",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "groupName" },
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.GroupCommand$List",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.GroupCommand$Update",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "groupName" },
+      { "name" : "main" },
+      { "name" : "newName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ImageCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ImageCommand$Delete",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "confirm" },
+      { "name" : "imageId" },
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ImageCommand$Get",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "imageId" },
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ImageCommand$List",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ImageCommand$Prune",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.LinkCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.LinkCommand$Create",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "adapterA" },
+      { "name" : "adapterB" },
+      { "name" : "main" },
+      { "name" : "nodeA" },
+      { "name" : "nodeB" },
+      { "name" : "portA" },
+      { "name" : "portB" },
+      { "name" : "projectName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.LinkCommand$Delete",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "confirm" },
+      { "name" : "linkId" },
+      { "name" : "main" },
+      { "name" : "projectName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.LinkCommand$Get",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "linkId" },
+      { "name" : "main" },
+      { "name" : "projectName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.LinkCommand$List",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" },
+      { "name" : "projectName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.LinkCommand$Update",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "linkId" },
+      { "name" : "main" },
+      { "name" : "projectName" },
+      { "name" : "resume" },
+      { "name" : "suspend" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.NodeCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.NodeCommand$Create",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "computeId" },
+      { "name" : "main" },
+      { "name" : "nodeName" },
+      { "name" : "nodeType" },
+      { "name" : "projectName" },
+      { "name" : "template" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.NodeCommand$Delete",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "confirm" },
+      { "name" : "main" },
+      { "name" : "nodeId" },
+      { "name" : "projectName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.NodeCommand$List",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" },
+      { "name" : "projectName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.PoolCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.PoolCommand$AddResource",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" },
+      { "name" : "poolName" },
+      { "name" : "resourceId" },
+      { "name" : "resourceType" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.PoolCommand$Create",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "description" },
+      { "name" : "main" },
+      { "name" : "poolName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.PoolCommand$Delete",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "confirm" },
+      { "name" : "main" },
+      { "name" : "poolName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.PoolCommand$DeleteResource",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" },
+      { "name" : "poolName" },
+      { "name" : "resourceId" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.PoolCommand$Get",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" },
+      { "name" : "poolName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.PoolCommand$List",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.PoolCommand$Update",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "description" },
+      { "name" : "main" },
+      { "name" : "poolName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ProjectCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ProjectCommand$Create",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "autoClose" },
+      { "name" : "main" },
+      { "name" : "projectName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ProjectCommand$Delete",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "confirm" },
+      { "name" : "main" },
+      { "name" : "projectName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ProjectCommand$Duplicate",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" },
+      { "name" : "newProjectName" },
+      { "name" : "sourceProject" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.ProjectCommand$List",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.RemoteCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.RemoteCommand$Install",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "domain" },
+      { "name" : "firewallAllow" },
+      { "name" : "main" },
+      { "name" : "serviceType" },
+      { "name" : "username" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.RemoteCommand$Uninstall",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" },
+      { "name" : "serviceType" },
+      { "name" : "username" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.RoleCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.RoleCommand$AddPrivilege",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" },
+      { "name" : "privilege" },
+      { "name" : "roleName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.RoleCommand$Create",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "description" },
+      { "name" : "main" },
+      { "name" : "roleName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.RoleCommand$Delete",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "confirm" },
+      { "name" : "main" },
+      { "name" : "roleName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.RoleCommand$DeletePrivilege",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" },
+      { "name" : "privilege" },
+      { "name" : "roleName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.RoleCommand$Get",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" },
+      { "name" : "roleName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.RoleCommand$List",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.RoleCommand$Update",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "description" },
+      { "name" : "main" },
+      { "name" : "roleName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.SnapshotCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.SnapshotCommand$Create",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" },
+      { "name" : "projectName" },
+      { "name" : "snapshotName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.SnapshotCommand$Delete",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "confirm" },
+      { "name" : "main" },
+      { "name" : "projectName" },
+      { "name" : "snapshotName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.SnapshotCommand$List",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" },
+      { "name" : "projectName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.TemplateCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.TemplateCommand$Create",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" },
+      { "name" : "projectName" },
+      { "name" : "templateName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.TemplateCommand$Delete",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "confirm" },
+      { "name" : "main" },
+      { "name" : "templateName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.TemplateCommand$Duplicate",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" },
+      { "name" : "newTemplateName" },
+      { "name" : "sourceTemplate" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.TemplateCommand$Get",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" },
+      { "name" : "templateName" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.TemplateCommand$List",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.UserCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.UserCommand$ChangePassword",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" },
+      { "name" : "newPassword" },
+      { "name" : "username" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.UserCommand$Create",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "email" },
+      { "name" : "main" },
+      { "name" : "password" },
+      { "name" : "username" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.UserCommand$Delete",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "confirm" },
+      { "name" : "main" },
+      { "name" : "username" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.UserCommand$Get",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" },
+      { "name" : "username" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.UserCommand$List",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.UserCommand$Me",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "main" }
+    ]
+  },
+  {
+    "name" : "com.gns3util.cli.commands.UserCommand$Update",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "email" },
+      { "name" : "main" },
+      { "name" : "username" }
+    ]
+  },
+  {
+    "name" : "java.lang.Integer",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true
+  }
 ]
